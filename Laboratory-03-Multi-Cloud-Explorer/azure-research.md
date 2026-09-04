@@ -2,42 +2,53 @@
 
 ## Brief Overview
 
-Microsoft Azure is Microsoft's cloud computing platform. It provides services for computing, storage, networking, databases, security, analytics, artificial intelligence, application development, and enterprise workloads.
+Microsoft Azure is Microsoft's cloud computing platform. Azure provides services for computing, storage, databases, networking, security, analytics, artificial intelligence, application development, and hybrid cloud environments.
+
+Azure is particularly useful for organizations that already use Microsoft technologies such as Windows Server, Microsoft 365, SQL Server, and Microsoft identity technologies.
 
 ## Global Infrastructure
 
-Azure provides a global infrastructure consisting of geographic regions and availability features designed to support reliable and scalable applications.
+Azure provides cloud infrastructure across geographic regions around the world. Organizations can select regions according to performance, availability, compliance, and data-residency requirements.
+
+Azure also provides availability capabilities that help organizations design resilient applications.
 
 ## Cloud Management Console
 
-The Azure Portal is a web-based management interface used to create, configure, monitor, and manage Azure resources.
+The Azure portal is a web-based management interface for Azure resources. Administrators can create and manage virtual machines, databases, storage, networks, identities, security settings, and other Azure services.
 
 ## Four Core Services
 
 ### 1. Azure Virtual Machines
 
-Azure Virtual Machines provide scalable virtual computing resources for running Windows and Linux workloads.
+Azure Virtual Machines provide scalable virtualized computing resources. They support both Windows and Linux operating systems.
 
 ### 2. Azure Blob Storage
 
-Azure Blob Storage provides object storage for large amounts of unstructured data such as documents, images, videos, and backups.
+Azure Blob Storage is an object storage service for large amounts of unstructured data such as documents, images, videos, backups, and application files.
 
-### 3. Azure Virtual Network
+### 3. Azure SQL Database
 
-Azure Virtual Network allows organizations to create private networks and control connectivity between Azure resources.
+Azure SQL Database is a managed relational database service based on Microsoft SQL technologies. It reduces the amount of infrastructure administration required by organizations.
 
-### 4. Microsoft Entra ID
+### 4. Azure Virtual Network
 
-Microsoft Entra ID provides identity and access management for users, applications, and resources.
+Azure Virtual Network provides private networking for Azure resources. It supports subnets, routing, network security, and connectivity.
 
 ## Three Advantages
 
-1. Azure provides strong integration with Microsoft technologies.
-2. Azure supports Windows Server and enterprise environments.
-3. Azure provides services for hybrid cloud and enterprise application environments.
+1. **Microsoft Integration** – Azure integrates strongly with Microsoft enterprise products.
+2. **Hybrid Cloud** – Azure supports connections between on-premises infrastructure and cloud resources.
+3. **Enterprise Capabilities** – Azure provides extensive security, identity, management, and compliance features.
 
 ## Typical Enterprise Use Cases
 
-Azure can be used for Windows Server migration, Microsoft 365 environments, enterprise applications, databases, hybrid cloud infrastructure, analytics, artificial intelligence, and application hosting.
+- Windows Server migration
+- Microsoft 365 integration
+- Enterprise application hosting
+- Hybrid cloud
+- Database hosting
+- Virtual desktop infrastructure
+- Business applications
+- AI and analytics
 
 
