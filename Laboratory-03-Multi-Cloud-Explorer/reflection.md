@@ -1,4 +1,4 @@
-## Mission 3 Reflection
+## Mission 3 Reflection 
 ## 1. Which cloud platform impressed you the most?
 
 The cloud platform that impressed me the most was Amazon Web Services (AWS). Before doing this activity, I knew that AWS was one of the biggest cloud providers, but I did not fully understand how many services it offers. While researching AWS, I learned that it provides services for computing, storage, databases, networking, security, artificial intelligence, machine learning, and application development. I found it interesting that these services can be combined to build complete applications and systems in the cloud.
