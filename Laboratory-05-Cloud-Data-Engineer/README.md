@@ -1,29 +1,51 @@
-# Laboratory Activity 05 - The Cloud Data Engineer
+# Laboratory 05 - Cloud Data Engineer
 
 ## Mission Overview
 
-In this laboratory activity, I worked as a Cloud Data Engineer and learned how cloud storage can be used to store and manage large amounts of unstructured data. I deployed MinIO, an S3-compatible object storage server, using Docker. I also accessed the MinIO Web Console, created a storage bucket, and uploaded a sample file.
+In this laboratory, I explored cloud storage technologies and deployed an
+S3-compatible object storage server using MinIO and Docker. The main goal was
+to understand how cloud storage can be used to manage large amounts of
+unstructured data such as photographs.
+
+I also created a storage bucket, uploaded a test file, and documented the
+deployment process.
 
 ## Objectives
 
-* Differentiate between Block Storage, File Storage, and Object Storage.
-* Deploy an S3-compatible Object Storage server using MinIO and Docker.
-* Access a cloud service through a web interface using port forwarding.
-* Create a storage bucket and upload an object.
-* Document cloud storage operations using Markdown.
-* Continue building my GitHub Cloud Computing Portfolio.
+- Understand block, file, and object storage.
+- Compare the different cloud storage types.
+- Deploy MinIO using Docker.
+- Configure MinIO using environment variables.
+- Access the MinIO Web Console.
+- Create an object storage bucket.
+- Upload an object to the bucket.
+- Practice Linux and Docker commands.
+- Document the deployment using Markdown.
 
 ## Tools Used
 
-* KillerCoda Playground
-* Ubuntu
-* Docker
-* MinIO
-* GitHub
-* Web Browser
-* Markdown
+- KillerCoda
+- Ubuntu Linux
+- Docker
+- MinIO
+- Git
+- GitHub
+- Web browser
+- Markdown
 
 ## Skills Learned
 
-Through this laboratory activity, I learned how to compare different types of cloud storage and identify their appropriate uses. I also learned how to deploy MinIO using Docker, configure environment variables, use port forwarding, create an object storage bucket, and upload files through a web interface. This activity also improved my Linux command-line and technical documentation skills.
+- Linux command-line operations
+- Docker container deployment
+- Docker port mapping
+- Environment variable configuration
+- Object storage concepts
+- Bucket management
+- File uploading
+- Technical documentation
+- Troubleshooting container deployments
 
+## Laboratory Evidence
+
+Screenshots demonstrating the MinIO deployment and bucket upload are stored
+inside the `screenshots` directory.
