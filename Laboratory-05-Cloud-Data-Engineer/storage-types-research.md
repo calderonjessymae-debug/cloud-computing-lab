@@ -1,13 +1,50 @@
 # Storage Types Research
 
-## Comparison of Cloud Storage Types
+## Introduction
 
-| Storage Type   | Description                                                                                                                             | Primary Use Case                                                                      | Cloud Provider Example |
-| -------------- | --------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ---------------------- |
-| Block Storage  | Stores data in fixed-size blocks that can be attached to a server or virtual machine as storage volumes.                                | Operating systems, databases, and applications that require high-performance storage. | AWS EBS                |
-| File Storage   | Stores data as files in a hierarchical directory structure that can be accessed and shared by multiple users or systems.                | Shared files, documents, and applications that require a common file system.          | AWS EFS                |
-| Object Storage | Stores data as objects together with their metadata and a unique identifier, making it suitable for large amounts of unstructured data. | Images, videos, backups, documents, and other large collections of unstructured data. | Amazon S3              |
+Cloud computing provides different storage technologies for different
+requirements. The three major types discussed in this laboratory are block
+storage, file storage, and object storage.
 
-## Why Object Storage Is Suitable for User-Uploaded Images
+## Storage Comparison
 
-Object Storage is a suitable choice for the client's photo-sharing application because it is designed to handle large amounts of unstructured data such as images. It allows uploaded photos to be stored as individual objects and accessed through the cloud, making it appropriate for an application that may need to store millions of user-uploaded images.
+| Storage Type | Description | Primary Use Case | Cloud Example |
+|---|---|---|---|
+| Block Storage | Data is divided into blocks and presented as a storage volume. | Virtual machines, databases, and operating systems. | AWS EBS |
+| File Storage | Data is organized into files and directories in a hierarchical file system. | Shared folders and applications requiring shared file access. | AWS EFS |
+| Object Storage | Data is stored as objects together with metadata and a unique identifier. | Photos, videos, backups, documents, and archives. | AWS S3 |
+
+## Block Storage
+
+Block storage provides applications with storage volumes that can be treated
+like physical disks. It is commonly used when an application requires direct
+and consistent access to storage.
+
+A common example is Amazon Elastic Block Store (EBS), which can provide storage
+volumes for virtual machines.
+
+## File Storage
+
+File storage organizes information into files and directories. Users and
+applications can access files through a shared file system.
+
+File storage is useful when several systems or users need to work with the
+same files. Amazon Elastic File System (EFS) is an example of a cloud file
+storage service.
+
+## Object Storage
+
+Object storage stores information as individual objects. An object normally
+contains the data itself, metadata, and an identifier.
+
+This storage model is particularly useful for large collections of
+unstructured information such as photographs, videos, backups, and documents.
+
+Amazon S3 is a widely used example of object storage.
+
+## Recommendation for the Client
+
+For the photo-sharing application, object storage is appropriate because
+photos are unstructured files that can be stored independently as objects.
+The storage system can also scale as the number of uploaded photos increases.
+
